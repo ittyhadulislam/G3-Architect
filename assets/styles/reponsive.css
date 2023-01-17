@@ -1,0 +1,141 @@
+@media only screen and (max-width: 550px) {
+
+    /* ----- header part start ----- */
+
+    /* --- navbar design start --- */
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav .logo>h2 {
+        padding-bottom: 20px;
+    }
+
+    /* --- navbar design end --- */
+    .container {
+        padding: 102px 10px 45px 10px;
+    }
+
+    /* ----- header part end ----- */
+
+    /* ----- main part start ----- */
+
+    /* --- section-1 start --- */
+
+    .about-fetures {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 50px;
+        padding: 0;
+    }
+
+    .about-fetures .image-gellary {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 24px;
+        /* grid-column-gap: 24px; */
+    }
+
+    .fratures-content-text {
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* --- section-1 end --- */
+
+    /* --- section-2 Start --- */
+
+    .love-enjoy {
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .love-enjoy-contents {
+        padding: 10px;
+    }
+
+    .content-title {
+        border-left: none;
+        border-bottom: 3px solid #FF900E;
+        padding-left: 0;
+        font-size: 20px;
+    }
+
+    .text-block {
+        padding-left: 0;
+    }
+
+    .love-enjoy-img .image>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .love-enjoy-img .years-10 {
+        width: 100%;
+        background-color: #FF900E;
+        text-align: center;
+        position: relative;
+        left: 18%;
+        top: 0;
+        padding: 40px 15px 40px 15px;
+        width: 200px;
+        border-radius: 10px;
+        color: #ffffff;
+    }
+
+    /* --- section-2 end --- */
+
+    /* --- section-3 start --- */
+
+    .fact-content {
+        font-size: 35px;
+        padding-bottom: 0;
+        padding: 100px 10px 10px 10px;
+        text-align: center;
+    }
+
+    .fact-content .fact-discription {
+        padding-bottom: 30px;
+    }
+
+    .status {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    /* --- section-3 end --- */
+
+    /* --- section-4 start --- */
+    .container-6 {
+        padding-top: 100px;
+    }
+
+    .sponsor-logos {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    /* --- section-4 end --- */
+
+    /* ----- main part end ----- */
+
+
+    /* ----- footer part start ----- */
+
+    .footer-disceription {
+        text-align: center;
+    }
+
+    /* ----- footer part end ----- */
+}
